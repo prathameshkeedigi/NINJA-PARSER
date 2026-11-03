@@ -1,0 +1,7 @@
+{
+  "tests": "Sources in src/, headers in two separate include folders (-I flags).",
+  "run": [
+    "app.exe"
+  ],
+  "cmake_args": []
+}

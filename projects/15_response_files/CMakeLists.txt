@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(response_files C)
+add_library(rparts STATIC r1.c r2.c r3.c)
+add_executable(app main.c)
+target_link_libraries(app rparts)

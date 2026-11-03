@@ -1,0 +1,16 @@
+Order computed by our parser (Kahn's algorithm), tasks needed by the default target:
+1. [phony] cmake_object_order_depends_target_common   waits for: -
+2. [C_COMPILER__common_unscanned_] CMakeFiles/common.dir/common.c.obj   waits for: ['cmake_object_order_depends_target_common']
+3. [phony] cmake_object_order_depends_target_tool_a   waits for: ['cmake_object_order_depends_target_common']
+4. [phony] cmake_object_order_depends_target_tool_b   waits for: ['cmake_object_order_depends_target_common']
+5. [phony] cmake_object_order_depends_target_tool_c   waits for: ['cmake_object_order_depends_target_common']
+6. [C_STATIC_LIBRARY_LINKER__common_] libcommon.a   waits for: ['CMakeFiles/common.dir/common.c.obj']
+7. [C_COMPILER__tool_a_unscanned_] CMakeFiles/tool_a.dir/tool_a.c.obj   waits for: ['cmake_object_order_depends_target_tool_a']
+8. [C_COMPILER__tool_b_unscanned_] CMakeFiles/tool_b.dir/tool_b.c.obj   waits for: ['cmake_object_order_depends_target_tool_b']
+9. [C_COMPILER__tool_c_unscanned_] CMakeFiles/tool_c.dir/tool_c.c.obj   waits for: ['cmake_object_order_depends_target_tool_c']
+10. [C_EXECUTABLE_LINKER__tool_a_] tool_a.exe   waits for: ['libcommon.a', 'CMakeFiles/tool_a.dir/tool_a.c.obj']
+11. [C_EXECUTABLE_LINKER__tool_b_] tool_b.exe   waits for: ['libcommon.a', 'CMakeFiles/tool_b.dir/tool_b.c.obj']
+12. [C_EXECUTABLE_LINKER__tool_c_] tool_c.exe   waits for: ['libcommon.a', 'CMakeFiles/tool_c.dir/tool_c.c.obj']
+13. [phony] all   waits for: ['libcommon.a', 'tool_a.exe', 'tool_b.exe', 'tool_c.exe']
+
+violations (a task placed before a task it waits for): 0

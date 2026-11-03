@@ -1,0 +1,7 @@
+{
+  "tests": "Library chain: app -> libmid -> libbase (transitive link dependency).",
+  "run": [
+    "app.exe"
+  ],
+  "cmake_args": []
+}

@@ -1,0 +1,2 @@
+$ app.exe   (exit code 0)
+hello world, version 3

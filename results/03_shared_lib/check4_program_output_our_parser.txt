@@ -1,0 +1,3 @@
+$ app.exe   (exit code 0)
+square area=16
+rect area=10

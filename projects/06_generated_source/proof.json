@@ -1,0 +1,7 @@
+{
+  "tests": "A generator writes BOTH parse.c and parse.h in one step (two outputs, like lemon); parse.c is then compiled.",
+  "run": [
+    "app.exe"
+  ],
+  "cmake_args": []
+}

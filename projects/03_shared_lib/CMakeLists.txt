@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(shared_lib C)
+add_library(shapes SHARED square.c rect.c)
+add_executable(app main.c report.c)
+target_link_libraries(app shapes)

@@ -1,0 +1,7 @@
+{
+  "tests": "add_subdirectory: the project is split into lib/ and app/, each with its own CMakeLists.txt.",
+  "run": [
+    "app/app.exe"
+  ],
+  "cmake_args": []
+}

@@ -1,0 +1,2 @@
+$ app.exe   (exit code 0)
+alpha=1 beta=2

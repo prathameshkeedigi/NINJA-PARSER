@@ -1,0 +1,16 @@
+{
+  "name": "13_multiple_executables",
+  "tests": "Three executables sharing one static library (one library node, many consumers).",
+  "c_files": 4,
+  "statements": 25,
+  "nodes": 128,
+  "commands": 27,
+  "tasks": 13,
+  "c1": true,
+  "c2": true,
+  "c3": true,
+  "c4": true,
+  "ran": 8,
+  "output": "$ tool_a.exe   (exit code 0)\ntool_a: 1\n$ tool_b.exe   (exit code 0)\ntool_b: 2\n$ tool_c.exe   (exit code 0)\ntool_c: 3\n",
+  "seconds": 8.8
+}

@@ -1,0 +1,16 @@
+{
+  "name": "14_interface_lib",
+  "tests": "An INTERFACE library (no files of its own) that only adds a define and an include folder.",
+  "c_files": 3,
+  "statements": 15,
+  "nodes": 117,
+  "commands": 13,
+  "tasks": 6,
+  "c1": true,
+  "c2": true,
+  "c3": true,
+  "c4": true,
+  "ran": 4,
+  "output": "$ app.exe   (exit code 0)\np=5 q=40\n",
+  "seconds": 7.4
+}

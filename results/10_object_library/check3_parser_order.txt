@@ -1,0 +1,14 @@
+Order computed by our parser (Kahn's algorithm), tasks needed by the default target:
+1. [phony] cmake_object_order_depends_target_common_objs   waits for: -
+2. [C_COMPILER__common_objs_unscanned_] CMakeFiles/common_objs.dir/log.c.obj   waits for: ['cmake_object_order_depends_target_common_objs']
+3. [C_COMPILER__common_objs_unscanned_] CMakeFiles/common_objs.dir/counter.c.obj   waits for: ['cmake_object_order_depends_target_common_objs']
+4. [phony] cmake_object_order_depends_target_app1   waits for: ['cmake_object_order_depends_target_common_objs']
+5. [phony] cmake_object_order_depends_target_app2   waits for: ['cmake_object_order_depends_target_common_objs']
+6. [phony] common_objs   waits for: ['CMakeFiles/common_objs.dir/log.c.obj', 'CMakeFiles/common_objs.dir/counter.c.obj']
+7. [C_COMPILER__app1_unscanned_] CMakeFiles/app1.dir/main1.c.obj   waits for: ['cmake_object_order_depends_target_app1']
+8. [C_COMPILER__app2_unscanned_] CMakeFiles/app2.dir/main2.c.obj   waits for: ['cmake_object_order_depends_target_app2']
+9. [C_EXECUTABLE_LINKER__app1_] app1.exe   waits for: ['CMakeFiles/common_objs.dir/log.c.obj', 'CMakeFiles/common_objs.dir/counter.c.obj', 'common_objs', 'CMakeFiles/app1.dir/main1.c.obj']
+10. [C_EXECUTABLE_LINKER__app2_] app2.exe   waits for: ['CMakeFiles/common_objs.dir/log.c.obj', 'CMakeFiles/common_objs.dir/counter.c.obj', 'common_objs', 'CMakeFiles/app2.dir/main2.c.obj']
+11. [phony] all   waits for: ['common_objs', 'app1.exe', 'app2.exe']
+
+violations (a task placed before a task it waits for): 0

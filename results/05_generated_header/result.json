@@ -1,0 +1,16 @@
+{
+  "name": "05_generated_header",
+  "tests": "A generator program is built and run during the build; it writes keywordhash.h, which tokenize.c includes (like SQLite's mkkeywordhash).",
+  "c_files": 3,
+  "statements": 19,
+  "nodes": 122,
+  "commands": 18,
+  "tasks": 9,
+  "c1": true,
+  "c2": true,
+  "c3": true,
+  "c4": true,
+  "ran": 6,
+  "output": "$ app.exe   (exit code 0)\nkeywords=42\n",
+  "seconds": 8.3
+}

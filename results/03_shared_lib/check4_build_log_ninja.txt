@@ -1,0 +1,7 @@
+ninja: Entering directory `C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/03_shared_lib/by_ninja'
+[1/6] Building C object CMakeFiles/shapes.dir/square.c.obj
+[2/6] Building C object CMakeFiles/shapes.dir/rect.c.obj
+[3/6] Building C object CMakeFiles/app.dir/main.c.obj
+[4/6] Building C object CMakeFiles/app.dir/report.c.obj
+[5/6] Linking C shared library libshapes.dll
+[6/6] Linking C executable app.exe

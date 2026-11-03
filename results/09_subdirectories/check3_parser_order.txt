@@ -1,0 +1,14 @@
+Order computed by our parser (Kahn's algorithm), tasks needed by the default target:
+1. [phony] cmake_object_order_depends_target_core   waits for: -
+2. [C_COMPILER__core_unscanned_] lib/CMakeFiles/core.dir/core1.c.obj   waits for: ['cmake_object_order_depends_target_core']
+3. [C_COMPILER__core_unscanned_] lib/CMakeFiles/core.dir/core2.c.obj   waits for: ['cmake_object_order_depends_target_core']
+4. [phony] cmake_object_order_depends_target_app   waits for: ['cmake_object_order_depends_target_core']
+5. [C_STATIC_LIBRARY_LINKER__core_] lib/libcore.a   waits for: ['lib/CMakeFiles/core.dir/core1.c.obj', 'lib/CMakeFiles/core.dir/core2.c.obj']
+6. [C_COMPILER__app_unscanned_] app/CMakeFiles/app.dir/main.c.obj   waits for: ['cmake_object_order_depends_target_app']
+7. [C_COMPILER__app_unscanned_] app/CMakeFiles/app.dir/helper.c.obj   waits for: ['cmake_object_order_depends_target_app']
+8. [phony] lib/all   waits for: ['lib/libcore.a']
+9. [C_EXECUTABLE_LINKER__app_] app/app.exe   waits for: ['lib/libcore.a', 'app/CMakeFiles/app.dir/main.c.obj', 'app/CMakeFiles/app.dir/helper.c.obj']
+10. [phony] app/all   waits for: ['app/app.exe']
+11. [phony] all   waits for: ['app/all', 'lib/all']
+
+violations (a task placed before a task it waits for): 0

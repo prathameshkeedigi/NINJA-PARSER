@@ -1,0 +1,11 @@
+[1] C:\msys64\ucrt64\bin\cc.exe @CMakeFiles\rparts.dir\r1.c.obj.rsp -MD -MT CMakeFiles/rparts.dir/r1.c.obj -MF CMakeFiles\rparts.dir\r1.c.obj.d -o CMakeFiles/rparts.dir/r1.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/15_response_files/r1.c
+
+[2] C:\msys64\ucrt64\bin\cc.exe @CMakeFiles\rparts.dir\r2.c.obj.rsp -MD -MT CMakeFiles/rparts.dir/r2.c.obj -MF CMakeFiles\rparts.dir\r2.c.obj.d -o CMakeFiles/rparts.dir/r2.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/15_response_files/r2.c
+
+[3] C:\msys64\ucrt64\bin\cc.exe @CMakeFiles\rparts.dir\r3.c.obj.rsp -MD -MT CMakeFiles/rparts.dir/r3.c.obj -MF CMakeFiles\rparts.dir\r3.c.obj.d -o CMakeFiles/rparts.dir/r3.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/15_response_files/r3.c
+
+[4] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\cmake\data\bin\cmake.exe -E rm -f librparts.a && C:\msys64\ucrt64\bin\ar.exe qc librparts.a  @CMakeFiles\rparts.rsp && C:\msys64\ucrt64\bin\ranlib.exe librparts.a && cd ."
+
+[5] C:\msys64\ucrt64\bin\cc.exe @CMakeFiles\app.dir\main.c.obj.rsp -MD -MT CMakeFiles/app.dir/main.c.obj -MF CMakeFiles\app.dir\main.c.obj.d -o CMakeFiles/app.dir/main.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/15_response_files/main.c
+
+[6] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\msys64\ucrt64\bin\cc.exe   @CMakeFiles\app.rsp -o app.exe -Wl,--out-implib,libapp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 && cd ."

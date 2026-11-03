@@ -1,0 +1,7 @@
+[1] C:\msys64\ucrt64\bin\cc.exe    -MD -MT CMakeFiles/app.dir/src_files/main_file.c.obj -MF CMakeFiles\app.dir\src_files\main_file.c.obj.d -o CMakeFiles/app.dir/src_files/main_file.c.obj -c "C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/16_spaces_in_paths/src files/main file.c"
+
+[2] C:\msys64\ucrt64\bin\cc.exe    -MD -MT CMakeFiles/app.dir/src_files/part_one.c.obj -MF CMakeFiles\app.dir\src_files\part_one.c.obj.d -o CMakeFiles/app.dir/src_files/part_one.c.obj -c "C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/16_spaces_in_paths/src files/part one.c"
+
+[3] C:\msys64\ucrt64\bin\cc.exe    -MD -MT CMakeFiles/app.dir/src_files/part_two.c.obj -MF CMakeFiles\app.dir\src_files\part_two.c.obj.d -o CMakeFiles/app.dir/src_files/part_two.c.obj -c "C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/16_spaces_in_paths/src files/part two.c"
+
+[4] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\msys64\ucrt64\bin\cc.exe   CMakeFiles/app.dir/src_files/main_file.c.obj CMakeFiles/app.dir/src_files/part_one.c.obj CMakeFiles/app.dir/src_files/part_two.c.obj -o app.exe -Wl,--out-implib,libapp.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."

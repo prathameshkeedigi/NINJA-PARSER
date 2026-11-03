@@ -1,0 +1,2 @@
+$ app.exe   (exit code 0)
+add=5 mul=6 sub=5

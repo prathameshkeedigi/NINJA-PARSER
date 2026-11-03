@@ -1,0 +1,7 @@
+[1] C:\msys64\ucrt64\bin\cc.exe -DAPP_VERSION=3 -DGREETING="\"hello world\""  -Wall -O2 -MD -MT CMakeFiles/app.dir/main.c.obj -MF CMakeFiles\app.dir\main.c.obj.d -o CMakeFiles/app.dir/main.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/07_compile_definitions/main.c
+
+[2] C:\msys64\ucrt64\bin\cc.exe -DAPP_VERSION=3 -DGREETING="\"hello world\""  -Wall -O2 -MD -MT CMakeFiles/app.dir/greet.c.obj -MF CMakeFiles\app.dir\greet.c.obj.d -o CMakeFiles/app.dir/greet.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/07_compile_definitions/greet.c
+
+[3] C:\msys64\ucrt64\bin\cc.exe -DAPP_VERSION=3 -DGREETING="\"hello world\""  -Wall -O2 -MD -MT CMakeFiles/app.dir/version.c.obj -MF CMakeFiles\app.dir\version.c.obj.d -o CMakeFiles/app.dir/version.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/07_compile_definitions/version.c
+
+[4] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\msys64\ucrt64\bin\cc.exe   CMakeFiles/app.dir/main.c.obj CMakeFiles/app.dir/greet.c.obj CMakeFiles/app.dir/version.c.obj -o app.exe -Wl,--out-implib,libapp.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."

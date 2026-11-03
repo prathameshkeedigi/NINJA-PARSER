@@ -1,0 +1,13 @@
+[1] C:\msys64\ucrt64\bin\cc.exe    -MD -MT CMakeFiles/base.dir/base.c.obj -MF CMakeFiles\base.dir\base.c.obj.d -o CMakeFiles/base.dir/base.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/04_lib_chain/base.c
+
+[2] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\cmake\data\bin\cmake.exe -E rm -f libbase.a && C:\msys64\ucrt64\bin\ar.exe qc libbase.a  CMakeFiles/base.dir/base.c.obj && C:\msys64\ucrt64\bin\ranlib.exe libbase.a && cd ."
+
+[3] C:\msys64\ucrt64\bin\cc.exe    -MD -MT CMakeFiles/mid.dir/mid.c.obj -MF CMakeFiles\mid.dir\mid.c.obj.d -o CMakeFiles/mid.dir/mid.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/04_lib_chain/mid.c
+
+[4] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\cmake\data\bin\cmake.exe -E rm -f libmid.a && C:\msys64\ucrt64\bin\ar.exe qc libmid.a  CMakeFiles/mid.dir/mid.c.obj && C:\msys64\ucrt64\bin\ranlib.exe libmid.a && cd ."
+
+[5] C:\msys64\ucrt64\bin\cc.exe    -MD -MT CMakeFiles/app.dir/main.c.obj -MF CMakeFiles\app.dir\main.c.obj.d -o CMakeFiles/app.dir/main.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/04_lib_chain/main.c
+
+[6] C:\msys64\ucrt64\bin\cc.exe    -MD -MT CMakeFiles/app.dir/extra.c.obj -MF CMakeFiles\app.dir\extra.c.obj.d -o CMakeFiles/app.dir/extra.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/04_lib_chain/extra.c
+
+[7] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\msys64\ucrt64\bin\cc.exe   CMakeFiles/app.dir/main.c.obj CMakeFiles/app.dir/extra.c.obj -o app.exe -Wl,--out-implib,libapp.dll.a -Wl,--major-image-version,0,--minor-image-version,0  libmid.a  libbase.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."

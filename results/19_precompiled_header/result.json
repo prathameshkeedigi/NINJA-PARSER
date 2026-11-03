@@ -1,0 +1,16 @@
+{
+  "name": "19_precompiled_header",
+  "tests": "Precompiled header: a separate build step compiles common.h into a .gch file before the .c files are compiled.",
+  "c_files": 3,
+  "statements": 16,
+  "nodes": 120,
+  "commands": 15,
+  "tasks": 7,
+  "c1": true,
+  "c2": true,
+  "c3": true,
+  "c4": true,
+  "ran": 5,
+  "output": "$ app.exe   (exit code 0)\npch p1=4 p2=3\n",
+  "seconds": 7.7
+}

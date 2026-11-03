@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.20)
+project(lib_chain C)
+add_library(base STATIC base.c)
+add_library(mid STATIC mid.c)
+target_link_libraries(mid PUBLIC base)
+add_executable(app main.c extra.c)
+target_link_libraries(app mid)

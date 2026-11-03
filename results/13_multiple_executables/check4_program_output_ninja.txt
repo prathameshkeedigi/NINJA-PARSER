@@ -1,0 +1,6 @@
+$ tool_a.exe   (exit code 0)
+tool_a: 1
+$ tool_b.exe   (exit code 0)
+tool_b: 2
+$ tool_c.exe   (exit code 0)
+tool_c: 3

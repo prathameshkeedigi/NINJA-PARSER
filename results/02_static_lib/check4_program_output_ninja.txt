@@ -1,0 +1,2 @@
+$ app.exe   (exit code 0)
+BANANA has 3 a's

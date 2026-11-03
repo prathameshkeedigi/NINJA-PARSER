@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(object_library C)
+add_library(common_objs OBJECT log.c counter.c)
+add_executable(app1 main1.c $<TARGET_OBJECTS:common_objs>)
+add_executable(app2 main2.c $<TARGET_OBJECTS:common_objs>)

@@ -1,0 +1,7 @@
+{
+  "tests": "An INTERFACE library (no files of its own) that only adds a define and an include folder.",
+  "run": [
+    "app.exe"
+  ],
+  "cmake_args": []
+}

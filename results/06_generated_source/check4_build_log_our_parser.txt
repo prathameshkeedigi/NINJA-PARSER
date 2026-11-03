@@ -1,0 +1,13 @@
+[1] C:\msys64\ucrt64\bin\cc.exe    -MD -MT CMakeFiles/mkparse.dir/gen/mkparse.c.obj -MF CMakeFiles\mkparse.dir\gen\mkparse.c.obj.d -o CMakeFiles/mkparse.dir/gen/mkparse.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/06_generated_source/gen/mkparse.c
+
+[2] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\msys64\ucrt64\bin\cc.exe   CMakeFiles/mkparse.dir/gen/mkparse.c.obj -o mkparse.exe -Wl,--out-implib,libmkparse.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+
+[3] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Asus\Desktop\Mini_project\Build_ninja_proof\builds\06_generated_source\by_our_parser && C:\Users\Asus\Desktop\Mini_project\Build_ninja_proof\builds\06_generated_source\by_our_parser\mkparse.exe C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/06_generated_source/by_our_parser/parse.c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/06_generated_source/by_our_parser/parse.h"
+
+[4] C:\msys64\ucrt64\bin\cc.exe  -IC:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/06_generated_source/by_our_parser  -MD -MT CMakeFiles/app.dir/main.c.obj -MF CMakeFiles\app.dir\main.c.obj.d -o CMakeFiles/app.dir/main.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/06_generated_source/main.c
+
+[5] C:\msys64\ucrt64\bin\cc.exe  -IC:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/06_generated_source/by_our_parser  -MD -MT CMakeFiles/app.dir/lexer.c.obj -MF CMakeFiles\app.dir\lexer.c.obj.d -o CMakeFiles/app.dir/lexer.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/06_generated_source/lexer.c
+
+[6] C:\msys64\ucrt64\bin\cc.exe  -IC:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/06_generated_source/by_our_parser  -MD -MT CMakeFiles/app.dir/parse.c.obj -MF CMakeFiles\app.dir\parse.c.obj.d -o CMakeFiles/app.dir/parse.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/06_generated_source/by_our_parser/parse.c
+
+[7] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\msys64\ucrt64\bin\cc.exe   CMakeFiles/app.dir/main.c.obj CMakeFiles/app.dir/lexer.c.obj CMakeFiles/app.dir/parse.c.obj -o app.exe -Wl,--out-implib,libapp.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."

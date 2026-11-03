@@ -1,0 +1,16 @@
+{
+  "name": "16_spaces_in_paths",
+  "tests": "Folder and file names containing spaces (tests the '$ ' escape in build.ninja paths).",
+  "c_files": 3,
+  "statements": 15,
+  "nodes": 117,
+  "commands": 13,
+  "tasks": 6,
+  "c1": true,
+  "c2": true,
+  "c3": true,
+  "c4": true,
+  "ran": 4,
+  "output": "$ app.exe   (exit code 0)\none=11 two=22\n",
+  "seconds": 7.6
+}

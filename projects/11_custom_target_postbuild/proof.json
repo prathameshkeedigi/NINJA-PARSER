@@ -1,0 +1,8 @@
+{
+  "tests": "A custom target that always runs, plus a POST_BUILD step that copies app.exe after linking.",
+  "run": [
+    "app.exe",
+    "app_copy.exe"
+  ],
+  "cmake_args": []
+}

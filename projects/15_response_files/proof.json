@@ -1,0 +1,9 @@
+{
+  "tests": "Response files forced on: the link and archive steps pass their inputs through an @file (rspfile / rspfile_content in build.ninja).",
+  "run": [
+    "app.exe"
+  ],
+  "cmake_args": [
+    "-DCMAKE_NINJA_FORCE_RESPONSE_FILE=ON"
+  ]
+}

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.20)
+project(configure_file VERSION 2.5 LANGUAGES C)
+set(FEATURE_X ON)
+configure_file(config.h.in ${CMAKE_BINARY_DIR}/config.h)
+add_executable(app main.c info.c feature.c)
+target_include_directories(app PRIVATE ${CMAKE_BINARY_DIR})

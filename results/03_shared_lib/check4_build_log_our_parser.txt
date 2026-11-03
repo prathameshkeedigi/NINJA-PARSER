@@ -1,0 +1,11 @@
+[1] C:\msys64\ucrt64\bin\cc.exe -Dshapes_EXPORTS   -MD -MT CMakeFiles/shapes.dir/square.c.obj -MF CMakeFiles\shapes.dir\square.c.obj.d -o CMakeFiles/shapes.dir/square.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/03_shared_lib/square.c
+
+[2] C:\msys64\ucrt64\bin\cc.exe -Dshapes_EXPORTS   -MD -MT CMakeFiles/shapes.dir/rect.c.obj -MF CMakeFiles\shapes.dir\rect.c.obj.d -o CMakeFiles/shapes.dir/rect.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/03_shared_lib/rect.c
+
+[3] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\msys64\ucrt64\bin\cc.exe   -shared -o libshapes.dll -Wl,--out-implib,libshapes.dll.a -Wl,--major-image-version,0,--minor-image-version,0 CMakeFiles/shapes.dir/square.c.obj CMakeFiles/shapes.dir/rect.c.obj  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+
+[4] C:\msys64\ucrt64\bin\cc.exe    -MD -MT CMakeFiles/app.dir/main.c.obj -MF CMakeFiles\app.dir\main.c.obj.d -o CMakeFiles/app.dir/main.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/03_shared_lib/main.c
+
+[5] C:\msys64\ucrt64\bin\cc.exe    -MD -MT CMakeFiles/app.dir/report.c.obj -MF CMakeFiles\app.dir\report.c.obj.d -o CMakeFiles/app.dir/report.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/03_shared_lib/report.c
+
+[6] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\msys64\ucrt64\bin\cc.exe   CMakeFiles/app.dir/main.c.obj CMakeFiles/app.dir/report.c.obj -o app.exe -Wl,--out-implib,libapp.dll.a -Wl,--major-image-version,0,--minor-image-version,0  libshapes.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."

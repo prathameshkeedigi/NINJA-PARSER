@@ -1,0 +1,3 @@
+#define APP_NAME "@PROJECT_NAME@"
+#define APP_VERSION "@PROJECT_VERSION@"
+#cmakedefine01 FEATURE_X

@@ -1,0 +1,16 @@
+{
+  "name": "09_subdirectories",
+  "tests": "add_subdirectory: the project is split into lib/ and app/, each with its own CMakeLists.txt.",
+  "c_files": 4,
+  "statements": 31,
+  "nodes": 138,
+  "commands": 24,
+  "tasks": 11,
+  "c1": true,
+  "c2": true,
+  "c3": true,
+  "c4": true,
+  "ran": 6,
+  "output": "$ app/app.exe   (exit code 0)\none=100 two=101 helper=202\n",
+  "seconds": 8.1
+}

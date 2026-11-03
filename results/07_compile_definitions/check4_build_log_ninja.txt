@@ -1,0 +1,5 @@
+ninja: Entering directory `C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/07_compile_definitions/by_ninja'
+[1/4] Building C object CMakeFiles/app.dir/greet.c.obj
+[2/4] Building C object CMakeFiles/app.dir/main.c.obj
+[3/4] Building C object CMakeFiles/app.dir/version.c.obj
+[4/4] Linking C executable app.exe

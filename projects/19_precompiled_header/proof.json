@@ -1,0 +1,7 @@
+{
+  "tests": "Precompiled header: a separate build step compiles common.h into a .gch file before the .c files are compiled.",
+  "run": [
+    "app.exe"
+  ],
+  "cmake_args": []
+}

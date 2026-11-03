@@ -1,0 +1,7 @@
+{
+  "tests": "A shared library (DLL): the link step has an extra output (import library).",
+  "run": [
+    "app.exe"
+  ],
+  "cmake_args": []
+}

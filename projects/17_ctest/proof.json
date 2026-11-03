@@ -1,0 +1,8 @@
+{
+  "tests": "enable_testing + add_test: CMake adds a 'test' step to build.ninja; a test executable is built.",
+  "run": [
+    "app.exe",
+    "test_calc.exe"
+  ],
+  "cmake_args": []
+}

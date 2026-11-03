@@ -1,0 +1,12 @@
+Order computed by our parser (Kahn's algorithm), tasks needed by the default target:
+1. [phony] cmake_object_order_depends_target_rparts   waits for: -
+2. [C_COMPILER__rparts_unscanned_] CMakeFiles/rparts.dir/r1.c.obj   waits for: ['cmake_object_order_depends_target_rparts']
+3. [C_COMPILER__rparts_unscanned_] CMakeFiles/rparts.dir/r2.c.obj   waits for: ['cmake_object_order_depends_target_rparts']
+4. [C_COMPILER__rparts_unscanned_] CMakeFiles/rparts.dir/r3.c.obj   waits for: ['cmake_object_order_depends_target_rparts']
+5. [phony] cmake_object_order_depends_target_app   waits for: ['cmake_object_order_depends_target_rparts']
+6. [C_STATIC_LIBRARY_LINKER__rparts_] librparts.a   waits for: ['CMakeFiles/rparts.dir/r1.c.obj', 'CMakeFiles/rparts.dir/r2.c.obj', 'CMakeFiles/rparts.dir/r3.c.obj']
+7. [C_COMPILER__app_unscanned_] CMakeFiles/app.dir/main.c.obj   waits for: ['cmake_object_order_depends_target_app']
+8. [C_EXECUTABLE_LINKER__app_] app.exe   waits for: ['librparts.a', 'CMakeFiles/app.dir/main.c.obj']
+9. [phony] all   waits for: ['librparts.a', 'app.exe']
+
+violations (a task placed before a task it waits for): 0

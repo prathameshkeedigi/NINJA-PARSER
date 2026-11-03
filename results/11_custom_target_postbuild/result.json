@@ -1,0 +1,16 @@
+{
+  "name": "11_custom_target_postbuild",
+  "tests": "A custom target that always runs, plus a POST_BUILD step that copies app.exe after linking.",
+  "c_files": 3,
+  "statements": 17,
+  "nodes": 120,
+  "commands": 15,
+  "tasks": 8,
+  "c1": true,
+  "c2": true,
+  "c3": true,
+  "c4": true,
+  "ran": 5,
+  "output": "$ app.exe   (exit code 0)\nx+y=42\n$ app_copy.exe   (exit code 0)\nx+y=42\n",
+  "seconds": 7.7
+}

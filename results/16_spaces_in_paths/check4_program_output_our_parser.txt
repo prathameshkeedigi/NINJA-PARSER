@@ -1,0 +1,2 @@
+$ app.exe   (exit code 0)
+one=11 two=22

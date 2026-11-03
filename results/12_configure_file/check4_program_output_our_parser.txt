@@ -1,0 +1,2 @@
+$ app.exe   (exit code 0)
+configure_file 2.5 feature_x=1

@@ -1,0 +1,10 @@
+[1] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Asus\Desktop\Mini_project\Build_ninja_proof\builds\11_custom_target_postbuild\by_our_parser && C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\cmake\data\bin\cmake.exe -E echo "banner target ran""
+banner target ran
+
+[2] C:\msys64\ucrt64\bin\cc.exe    -MD -MT CMakeFiles/app.dir/main.c.obj -MF CMakeFiles\app.dir\main.c.obj.d -o CMakeFiles/app.dir/main.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/11_custom_target_postbuild/main.c
+
+[3] C:\msys64\ucrt64\bin\cc.exe    -MD -MT CMakeFiles/app.dir/x.c.obj -MF CMakeFiles\app.dir\x.c.obj.d -o CMakeFiles/app.dir/x.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/11_custom_target_postbuild/x.c
+
+[4] C:\msys64\ucrt64\bin\cc.exe    -MD -MT CMakeFiles/app.dir/y.c.obj -MF CMakeFiles\app.dir\y.c.obj.d -o CMakeFiles/app.dir/y.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/11_custom_target_postbuild/y.c
+
+[5] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\msys64\ucrt64\bin\cc.exe   CMakeFiles/app.dir/main.c.obj CMakeFiles/app.dir/x.c.obj CMakeFiles/app.dir/y.c.obj -o app.exe -Wl,--out-implib,libapp.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Asus\Desktop\Mini_project\Build_ninja_proof\builds\11_custom_target_postbuild\by_our_parser && C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\cmake\data\bin\cmake.exe -E copy C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/11_custom_target_postbuild/by_our_parser/app.exe C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/11_custom_target_postbuild/by_our_parser/app_copy.exe""

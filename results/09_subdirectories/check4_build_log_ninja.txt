@@ -1,0 +1,7 @@
+ninja: Entering directory `C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/09_subdirectories/by_ninja'
+[1/6] Building C object lib/CMakeFiles/core.dir/core1.c.obj
+[2/6] Building C object lib/CMakeFiles/core.dir/core2.c.obj
+[3/6] Building C object app/CMakeFiles/app.dir/helper.c.obj
+[4/6] Building C object app/CMakeFiles/app.dir/main.c.obj
+[5/6] Linking C static library lib\libcore.a
+[6/6] Linking C executable app\app.exe

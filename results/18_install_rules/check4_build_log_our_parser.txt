@@ -1,0 +1,7 @@
+[1] C:\msys64\ucrt64\bin\cc.exe    -MD -MT CMakeFiles/app.dir/main.c.obj -MF CMakeFiles\app.dir\main.c.obj.d -o CMakeFiles/app.dir/main.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/18_install_rules/main.c
+
+[2] C:\msys64\ucrt64\bin\cc.exe    -MD -MT CMakeFiles/app.dir/i1.c.obj -MF CMakeFiles\app.dir\i1.c.obj.d -o CMakeFiles/app.dir/i1.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/18_install_rules/i1.c
+
+[3] C:\msys64\ucrt64\bin\cc.exe    -MD -MT CMakeFiles/app.dir/i2.c.obj -MF CMakeFiles\app.dir\i2.c.obj.d -o CMakeFiles/app.dir/i2.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/18_install_rules/i2.c
+
+[4] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\msys64\ucrt64\bin\cc.exe   CMakeFiles/app.dir/main.c.obj CMakeFiles/app.dir/i1.c.obj CMakeFiles/app.dir/i2.c.obj -o app.exe -Wl,--out-implib,libapp.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."

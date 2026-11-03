@@ -1,0 +1,16 @@
+{
+  "name": "06_generated_source",
+  "tests": "A generator writes BOTH parse.c and parse.h in one step (two outputs, like lemon); parse.c is then compiled.",
+  "c_files": 3,
+  "statements": 20,
+  "nodes": 125,
+  "commands": 19,
+  "tasks": 10,
+  "c1": true,
+  "c2": true,
+  "c3": true,
+  "c4": true,
+  "ran": 7,
+  "output": "$ app.exe   (exit code 0)\ntokens=5 parsed=15\n",
+  "seconds": 8.4
+}

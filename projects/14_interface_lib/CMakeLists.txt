@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.20)
+project(interface_lib C)
+add_library(settings INTERFACE)
+target_compile_definitions(settings INTERFACE MAX_ITEMS=5)
+target_include_directories(settings INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/iface)
+add_executable(app main.c p.c q.c)
+target_link_libraries(app settings)

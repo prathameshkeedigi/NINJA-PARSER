@@ -1,0 +1,2 @@
+$ app/app.exe   (exit code 0)
+one=100 two=101 helper=202

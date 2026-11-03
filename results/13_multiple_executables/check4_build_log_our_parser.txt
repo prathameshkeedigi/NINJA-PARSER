@@ -1,0 +1,15 @@
+[1] C:\msys64\ucrt64\bin\cc.exe    -MD -MT CMakeFiles/common.dir/common.c.obj -MF CMakeFiles\common.dir\common.c.obj.d -o CMakeFiles/common.dir/common.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/13_multiple_executables/common.c
+
+[2] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\cmake\data\bin\cmake.exe -E rm -f libcommon.a && C:\msys64\ucrt64\bin\ar.exe qc libcommon.a  CMakeFiles/common.dir/common.c.obj && C:\msys64\ucrt64\bin\ranlib.exe libcommon.a && cd ."
+
+[3] C:\msys64\ucrt64\bin\cc.exe    -MD -MT CMakeFiles/tool_a.dir/tool_a.c.obj -MF CMakeFiles\tool_a.dir\tool_a.c.obj.d -o CMakeFiles/tool_a.dir/tool_a.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/13_multiple_executables/tool_a.c
+
+[4] C:\msys64\ucrt64\bin\cc.exe    -MD -MT CMakeFiles/tool_b.dir/tool_b.c.obj -MF CMakeFiles\tool_b.dir\tool_b.c.obj.d -o CMakeFiles/tool_b.dir/tool_b.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/13_multiple_executables/tool_b.c
+
+[5] C:\msys64\ucrt64\bin\cc.exe    -MD -MT CMakeFiles/tool_c.dir/tool_c.c.obj -MF CMakeFiles\tool_c.dir\tool_c.c.obj.d -o CMakeFiles/tool_c.dir/tool_c.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/13_multiple_executables/tool_c.c
+
+[6] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\msys64\ucrt64\bin\cc.exe   CMakeFiles/tool_a.dir/tool_a.c.obj -o tool_a.exe -Wl,--out-implib,libtool_a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  libcommon.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+
+[7] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\msys64\ucrt64\bin\cc.exe   CMakeFiles/tool_b.dir/tool_b.c.obj -o tool_b.exe -Wl,--out-implib,libtool_b.dll.a -Wl,--major-image-version,0,--minor-image-version,0  libcommon.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+
+[8] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\msys64\ucrt64\bin\cc.exe   CMakeFiles/tool_c.dir/tool_c.c.obj -o tool_c.exe -Wl,--out-implib,libtool_c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  libcommon.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."

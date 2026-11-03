@@ -1,0 +1,7 @@
+{
+  "tests": "Folder and file names containing spaces (tests the '$ ' escape in build.ninja paths).",
+  "run": [
+    "app.exe"
+  ],
+  "cmake_args": []
+}

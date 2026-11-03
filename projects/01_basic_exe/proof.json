@@ -1,0 +1,7 @@
+{
+  "tests": "One executable from 4 C files: the simplest compile + link graph.",
+  "run": [
+    "app.exe"
+  ],
+  "cmake_args": []
+}

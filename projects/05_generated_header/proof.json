@@ -1,0 +1,7 @@
+{
+  "tests": "A generator program is built and run during the build; it writes keywordhash.h, which tokenize.c includes (like SQLite's mkkeywordhash).",
+  "run": [
+    "app.exe"
+  ],
+  "cmake_args": []
+}

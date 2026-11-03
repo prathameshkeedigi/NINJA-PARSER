@@ -1,0 +1,6 @@
+ninja: Entering directory `C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/19_precompiled_header/by_ninja'
+[1/5] Building C object CMakeFiles/app.dir/cmake_pch.h.gch
+[2/5] Building C object CMakeFiles/app.dir/main.c.obj
+[3/5] Building C object CMakeFiles/app.dir/p1.c.obj
+[4/5] Building C object CMakeFiles/app.dir/p2.c.obj
+[5/5] Linking C executable app.exe

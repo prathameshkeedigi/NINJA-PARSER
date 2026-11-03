@@ -1,0 +1,7 @@
+{
+  "tests": "Compile definitions and options, including a string with a space and quotes (tests escaping inside build.ninja variables).",
+  "run": [
+    "app.exe"
+  ],
+  "cmake_args": []
+}

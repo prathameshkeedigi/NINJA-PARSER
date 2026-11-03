@@ -1,0 +1,16 @@
+{
+  "name": "18_install_rules",
+  "tests": "install() rules: CMake adds install, install/local, install/strip steps (and the default install path contains spaces).",
+  "c_files": 3,
+  "statements": 22,
+  "nodes": 124,
+  "commands": 16,
+  "tasks": 6,
+  "c1": true,
+  "c2": true,
+  "c3": true,
+  "c4": true,
+  "ran": 4,
+  "output": "$ app.exe   (exit code 0)\ni1=7 i2=8\n",
+  "seconds": 7.4
+}

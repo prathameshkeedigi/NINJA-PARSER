@@ -1,0 +1,2 @@
+$ app.exe   (exit code 0)
+i1=7 i2=8

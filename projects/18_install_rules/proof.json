@@ -1,0 +1,7 @@
+{
+  "tests": "install() rules: CMake adds install, install/local, install/strip steps (and the default install path contains spaces).",
+  "run": [
+    "app.exe"
+  ],
+  "cmake_args": []
+}

@@ -1,0 +1,4 @@
+$ app.exe   (exit code 0)
+square(9)=81
+$ test_calc.exe   (exit code 0)
+test passed

@@ -1,0 +1,7 @@
+{
+  "tests": "A static library (.a built with ar) linked into an executable.",
+  "run": [
+    "app.exe"
+  ],
+  "cmake_args": []
+}

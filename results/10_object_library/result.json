@@ -1,0 +1,16 @@
+{
+  "name": "10_object_library",
+  "tests": "An OBJECT library: the same .obj files are linked into two different executables.",
+  "c_files": 4,
+  "statements": 21,
+  "nodes": 124,
+  "commands": 17,
+  "tasks": 11,
+  "c1": true,
+  "c2": true,
+  "c3": true,
+  "c4": true,
+  "ran": 6,
+  "output": "$ app1.exe   (exit code 0)\n[app1] 1\n$ app2.exe   (exit code 0)\n[app2] 2\n",
+  "seconds": 8.1
+}

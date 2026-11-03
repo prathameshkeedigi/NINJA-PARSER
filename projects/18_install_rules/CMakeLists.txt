@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(install_rules C)
+add_executable(app main.c i1.c i2.c)
+install(TARGETS app DESTINATION bin)
+install(FILES notes.txt DESTINATION doc)

@@ -1,0 +1,11 @@
+Order computed by our parser (Kahn's algorithm), tasks needed by the default target:
+1. [phony] cmake_object_order_depends_target_app   waits for: -
+2. [CUSTOM_COMMAND] CMakeFiles/banner   waits for: -
+3. [C_COMPILER__app_unscanned_] CMakeFiles/app.dir/main.c.obj   waits for: ['cmake_object_order_depends_target_app']
+4. [C_COMPILER__app_unscanned_] CMakeFiles/app.dir/x.c.obj   waits for: ['cmake_object_order_depends_target_app']
+5. [C_COMPILER__app_unscanned_] CMakeFiles/app.dir/y.c.obj   waits for: ['cmake_object_order_depends_target_app']
+6. [phony] banner   waits for: ['CMakeFiles/banner']
+7. [C_EXECUTABLE_LINKER__app_] app.exe   waits for: ['CMakeFiles/app.dir/main.c.obj', 'CMakeFiles/app.dir/x.c.obj', 'CMakeFiles/app.dir/y.c.obj']
+8. [phony] all   waits for: ['app.exe', 'banner']
+
+violations (a task placed before a task it waits for): 0

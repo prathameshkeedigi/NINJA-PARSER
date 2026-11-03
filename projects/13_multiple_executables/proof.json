@@ -1,0 +1,9 @@
+{
+  "tests": "Three executables sharing one static library (one library node, many consumers).",
+  "run": [
+    "tool_a.exe",
+    "tool_b.exe",
+    "tool_c.exe"
+  ],
+  "cmake_args": []
+}

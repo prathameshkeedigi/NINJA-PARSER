@@ -1,0 +1,10 @@
+Order computed by our parser (Kahn's algorithm), tasks needed by the default target:
+1. [phony] cmake_object_order_depends_target_app   waits for: -
+2. [C_COMPILER__app_unscanned_] CMakeFiles/app.dir/cmake_pch.h.gch   waits for: ['cmake_object_order_depends_target_app']
+3. [C_COMPILER__app_unscanned_] CMakeFiles/app.dir/main.c.obj   waits for: ['cmake_object_order_depends_target_app', 'CMakeFiles/app.dir/cmake_pch.h.gch']
+4. [C_COMPILER__app_unscanned_] CMakeFiles/app.dir/p1.c.obj   waits for: ['cmake_object_order_depends_target_app', 'CMakeFiles/app.dir/cmake_pch.h.gch']
+5. [C_COMPILER__app_unscanned_] CMakeFiles/app.dir/p2.c.obj   waits for: ['cmake_object_order_depends_target_app', 'CMakeFiles/app.dir/cmake_pch.h.gch']
+6. [C_EXECUTABLE_LINKER__app_] app.exe   waits for: ['CMakeFiles/app.dir/main.c.obj', 'CMakeFiles/app.dir/p1.c.obj', 'CMakeFiles/app.dir/p2.c.obj']
+7. [phony] all   waits for: ['app.exe']
+
+violations (a task placed before a task it waits for): 0

@@ -1,0 +1,12 @@
+Order computed by our parser (Kahn's algorithm), tasks needed by the default target:
+1. [phony] cmake_object_order_depends_target_shapes   waits for: -
+2. [C_COMPILER__shapes_unscanned_] CMakeFiles/shapes.dir/square.c.obj   waits for: ['cmake_object_order_depends_target_shapes']
+3. [C_COMPILER__shapes_unscanned_] CMakeFiles/shapes.dir/rect.c.obj   waits for: ['cmake_object_order_depends_target_shapes']
+4. [phony] cmake_object_order_depends_target_app   waits for: ['cmake_object_order_depends_target_shapes']
+5. [C_SHARED_LIBRARY_LINKER__shapes_] libshapes.dll   waits for: ['CMakeFiles/shapes.dir/square.c.obj', 'CMakeFiles/shapes.dir/rect.c.obj']
+6. [C_COMPILER__app_unscanned_] CMakeFiles/app.dir/main.c.obj   waits for: ['cmake_object_order_depends_target_app']
+7. [C_COMPILER__app_unscanned_] CMakeFiles/app.dir/report.c.obj   waits for: ['cmake_object_order_depends_target_app']
+8. [C_EXECUTABLE_LINKER__app_] app.exe   waits for: ['libshapes.dll', 'CMakeFiles/app.dir/main.c.obj', 'CMakeFiles/app.dir/report.c.obj']
+9. [phony] all   waits for: ['libshapes.dll', 'app.exe']
+
+violations (a task placed before a task it waits for): 0

@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(compile_definitions C)
+add_executable(app main.c greet.c version.c)
+target_compile_definitions(app PRIVATE APP_VERSION=3 "GREETING=\"hello world\"")
+target_compile_options(app PRIVATE -Wall -O2)

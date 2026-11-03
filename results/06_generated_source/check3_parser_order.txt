@@ -1,0 +1,13 @@
+Order computed by our parser (Kahn's algorithm), tasks needed by the default target:
+1. [phony] cmake_object_order_depends_target_mkparse   waits for: -
+2. [C_COMPILER__mkparse_unscanned_] CMakeFiles/mkparse.dir/gen/mkparse.c.obj   waits for: ['cmake_object_order_depends_target_mkparse']
+3. [C_EXECUTABLE_LINKER__mkparse_] mkparse.exe   waits for: ['CMakeFiles/mkparse.dir/gen/mkparse.c.obj']
+4. [CUSTOM_COMMAND] parse.c   waits for: ['mkparse.exe']
+5. [phony] cmake_object_order_depends_target_app   waits for: ['mkparse.exe', 'parse.c']
+6. [C_COMPILER__app_unscanned_] CMakeFiles/app.dir/main.c.obj   waits for: ['cmake_object_order_depends_target_app']
+7. [C_COMPILER__app_unscanned_] CMakeFiles/app.dir/lexer.c.obj   waits for: ['cmake_object_order_depends_target_app']
+8. [C_COMPILER__app_unscanned_] CMakeFiles/app.dir/parse.c.obj   waits for: ['cmake_object_order_depends_target_app', 'parse.c']
+9. [C_EXECUTABLE_LINKER__app_] app.exe   waits for: ['mkparse.exe', 'CMakeFiles/app.dir/main.c.obj', 'CMakeFiles/app.dir/lexer.c.obj', 'CMakeFiles/app.dir/parse.c.obj']
+10. [phony] all   waits for: ['mkparse.exe', 'app.exe']
+
+violations (a task placed before a task it waits for): 0

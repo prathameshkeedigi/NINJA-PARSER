@@ -1,0 +1,6 @@
+ninja: Entering directory `C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/02_static_lib/by_ninja'
+[1/5] Building C object CMakeFiles/textutil.dir/upper.c.obj
+[2/5] Building C object CMakeFiles/textutil.dir/count.c.obj
+[3/5] Building C object CMakeFiles/app.dir/main.c.obj
+[4/5] Linking C static library libtextutil.a
+[5/5] Linking C executable app.exe

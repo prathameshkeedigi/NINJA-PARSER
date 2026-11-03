@@ -1,0 +1,16 @@
+{
+  "name": "15_response_files",
+  "tests": "Response files forced on: the link and archive steps pass their inputs through an @file (rspfile / rspfile_content in build.ninja).",
+  "c_files": 4,
+  "statements": 19,
+  "nodes": 122,
+  "commands": 17,
+  "tasks": 9,
+  "c1": true,
+  "c2": true,
+  "c3": true,
+  "c4": true,
+  "ran": 6,
+  "output": "$ app.exe   (exit code 0)\nsum=6\n",
+  "seconds": 7.9
+}

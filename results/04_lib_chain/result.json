@@ -1,0 +1,16 @@
+{
+  "name": "04_lib_chain",
+  "tests": "Library chain: app -> libmid -> libbase (transitive link dependency).",
+  "c_files": 4,
+  "statements": 22,
+  "nodes": 125,
+  "commands": 19,
+  "tasks": 11,
+  "c1": true,
+  "c2": true,
+  "c3": true,
+  "c4": true,
+  "ran": 7,
+  "output": "$ app.exe   (exit code 0)\nbase=10 mid=20 extra=21\n",
+  "seconds": 8.4
+}

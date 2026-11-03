@@ -1,0 +1,9 @@
+ninja: Entering directory `C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/13_multiple_executables/by_ninja'
+[1/8] Building C object CMakeFiles/tool_a.dir/tool_a.c.obj
+[2/8] Building C object CMakeFiles/tool_b.dir/tool_b.c.obj
+[3/8] Building C object CMakeFiles/common.dir/common.c.obj
+[4/8] Building C object CMakeFiles/tool_c.dir/tool_c.c.obj
+[5/8] Linking C static library libcommon.a
+[6/8] Linking C executable tool_a.exe
+[7/8] Linking C executable tool_b.exe
+[8/8] Linking C executable tool_c.exe

@@ -1,0 +1,16 @@
+{
+  "name": "07_compile_definitions",
+  "tests": "Compile definitions and options, including a string with a space and quotes (tests escaping inside build.ninja variables).",
+  "c_files": 3,
+  "statements": 15,
+  "nodes": 117,
+  "commands": 13,
+  "tasks": 6,
+  "c1": true,
+  "c2": true,
+  "c3": true,
+  "c4": true,
+  "ran": 4,
+  "output": "$ app.exe   (exit code 0)\nhello world, version 3\n",
+  "seconds": 7.4
+}

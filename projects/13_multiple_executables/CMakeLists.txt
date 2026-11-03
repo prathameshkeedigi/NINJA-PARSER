@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.20)
+project(multiple_executables C)
+add_library(common STATIC common.c)
+foreach(t tool_a tool_b tool_c)
+  add_executable(${t} ${t}.c)
+  target_link_libraries(${t} common)
+endforeach()

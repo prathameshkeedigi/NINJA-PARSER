@@ -1,0 +1,42 @@
+ninja: Entering directory `C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja'
+[1/41] Building C object CMakeFiles/zlibstatic.dir/adler32.c.obj
+[2/41] Building C object CMakeFiles/zlibstatic.dir/compress.c.obj
+[3/41] Generating zlib1rc.obj
+[4/41] Building C object CMakeFiles/zlibstatic.dir/crc32.c.obj
+[5/41] Building C object CMakeFiles/zlibstatic.dir/gzclose.c.obj
+[6/41] Building C object CMakeFiles/zlibstatic.dir/gzlib.c.obj
+[7/41] Building C object CMakeFiles/zlibstatic.dir/gzread.c.obj
+[8/41] Building C object CMakeFiles/zlibstatic.dir/gzwrite.c.obj
+[9/41] Building C object CMakeFiles/zlibstatic.dir/inffast.c.obj
+[10/41] Building C object CMakeFiles/zlibstatic.dir/inftrees.c.obj
+[11/41] Building C object CMakeFiles/zlibstatic.dir/uncompr.c.obj
+[12/41] Building C object CMakeFiles/zlibstatic.dir/inflate.c.obj
+[13/41] Building C object CMakeFiles/zlibstatic.dir/infback.c.obj
+[14/41] Building C object CMakeFiles/zlibstatic.dir/deflate.c.obj
+[15/41] Building C object CMakeFiles/zlibstatic.dir/zutil.c.obj
+[16/41] Building C object CMakeFiles/zlibstatic.dir/trees.c.obj
+[17/41] Building C object CMakeFiles/zlib.dir/adler32.c.obj
+[18/41] Building C object CMakeFiles/zlib.dir/compress.c.obj
+[19/41] Building C object CMakeFiles/zlib.dir/crc32.c.obj
+[20/41] Building C object CMakeFiles/zlib.dir/gzclose.c.obj
+[21/41] Building C object CMakeFiles/zlib.dir/gzread.c.obj
+[22/41] Building C object CMakeFiles/zlib.dir/gzlib.c.obj
+[23/41] Building C object CMakeFiles/zlib.dir/gzwrite.c.obj
+[24/41] Building C object CMakeFiles/zlib.dir/deflate.c.obj
+[25/41] Building C object CMakeFiles/zlib.dir/inftrees.c.obj
+[26/41] Building C object CMakeFiles/zlib.dir/infback.c.obj
+[27/41] Building C object CMakeFiles/zlib.dir/inffast.c.obj
+[28/41] Building C object CMakeFiles/zlib.dir/uncompr.c.obj
+[29/41] Building C object CMakeFiles/zlib.dir/zutil.c.obj
+[30/41] Building C object CMakeFiles/zlib.dir/inflate.c.obj
+[31/41] Building C object CMakeFiles/zlib.dir/trees.c.obj
+[32/41] Building C object CMakeFiles/minigzip.dir/test/minigzip.c.obj
+[33/41] Building C object CMakeFiles/example.dir/test/example.c.obj
+[34/41] Building C object CMakeFiles/example64.dir/test/example.c.obj
+[35/41] Building C object CMakeFiles/minigzip64.dir/test/minigzip.c.obj
+[36/41] Linking C static library libzlibstatic.a
+[37/41] Linking C shared library libzlib.dll
+[38/41] Linking C executable example.exe
+[39/41] Linking C executable minigzip.exe
+[40/41] Linking C executable example64.exe
+[41/41] Linking C executable minigzip64.exe

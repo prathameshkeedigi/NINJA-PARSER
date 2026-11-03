@@ -1,0 +1,11 @@
+Order computed by our parser (Kahn's algorithm), tasks needed by the default target:
+1. [phony] cmake_object_order_depends_target_textutil   waits for: -
+2. [C_COMPILER__textutil_unscanned_] CMakeFiles/textutil.dir/upper.c.obj   waits for: ['cmake_object_order_depends_target_textutil']
+3. [C_COMPILER__textutil_unscanned_] CMakeFiles/textutil.dir/count.c.obj   waits for: ['cmake_object_order_depends_target_textutil']
+4. [phony] cmake_object_order_depends_target_app   waits for: ['cmake_object_order_depends_target_textutil']
+5. [C_STATIC_LIBRARY_LINKER__textutil_] libtextutil.a   waits for: ['CMakeFiles/textutil.dir/upper.c.obj', 'CMakeFiles/textutil.dir/count.c.obj']
+6. [C_COMPILER__app_unscanned_] CMakeFiles/app.dir/main.c.obj   waits for: ['cmake_object_order_depends_target_app']
+7. [C_EXECUTABLE_LINKER__app_] app.exe   waits for: ['libtextutil.a', 'CMakeFiles/app.dir/main.c.obj']
+8. [phony] all   waits for: ['libtextutil.a', 'app.exe']
+
+violations (a task placed before a task it waits for): 0

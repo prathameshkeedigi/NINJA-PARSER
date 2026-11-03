@@ -1,0 +1,7 @@
+ninja: Entering directory `C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/11_custom_target_postbuild/by_ninja'
+[1/5] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Asus\Desktop\Mini_project\Build_ninja_proof\builds\11_custom_target_postbuild\by_ninja && C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\cmake\data\bin\cmake.exe -E echo "banner target ran""
+banner target ran
+[2/5] Building C object CMakeFiles/app.dir/x.c.obj
+[3/5] Building C object CMakeFiles/app.dir/main.c.obj
+[4/5] Building C object CMakeFiles/app.dir/y.c.obj
+[5/5] Linking C executable app.exe

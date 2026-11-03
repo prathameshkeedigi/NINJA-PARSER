@@ -1,0 +1,4 @@
+$ app.exe   (exit code 0)
+x+y=42
+$ app_copy.exe   (exit code 0)
+x+y=42

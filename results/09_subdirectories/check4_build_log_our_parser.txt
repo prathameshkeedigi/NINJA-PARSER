@@ -1,0 +1,11 @@
+[1] C:\msys64\ucrt64\bin\cc.exe  -IC:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/09_subdirectories/lib  -MD -MT lib/CMakeFiles/core.dir/core1.c.obj -MF lib\CMakeFiles\core.dir\core1.c.obj.d -o lib/CMakeFiles/core.dir/core1.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/09_subdirectories/lib/core1.c
+
+[2] C:\msys64\ucrt64\bin\cc.exe  -IC:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/09_subdirectories/lib  -MD -MT lib/CMakeFiles/core.dir/core2.c.obj -MF lib\CMakeFiles\core.dir\core2.c.obj.d -o lib/CMakeFiles/core.dir/core2.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/09_subdirectories/lib/core2.c
+
+[3] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\cmake\data\bin\cmake.exe -E rm -f lib\libcore.a && C:\msys64\ucrt64\bin\ar.exe qc lib\libcore.a  lib/CMakeFiles/core.dir/core1.c.obj lib/CMakeFiles/core.dir/core2.c.obj && C:\msys64\ucrt64\bin\ranlib.exe lib\libcore.a && cd ."
+
+[4] C:\msys64\ucrt64\bin\cc.exe  -IC:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/09_subdirectories/lib  -MD -MT app/CMakeFiles/app.dir/main.c.obj -MF app\CMakeFiles\app.dir\main.c.obj.d -o app/CMakeFiles/app.dir/main.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/09_subdirectories/app/main.c
+
+[5] C:\msys64\ucrt64\bin\cc.exe  -IC:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/09_subdirectories/lib  -MD -MT app/CMakeFiles/app.dir/helper.c.obj -MF app\CMakeFiles\app.dir\helper.c.obj.d -o app/CMakeFiles/app.dir/helper.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/09_subdirectories/app/helper.c
+
+[6] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\msys64\ucrt64\bin\cc.exe   app/CMakeFiles/app.dir/main.c.obj app/CMakeFiles/app.dir/helper.c.obj -o app\app.exe -Wl,--out-implib,app\libapp.dll.a -Wl,--major-image-version,0,--minor-image-version,0  lib/libcore.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."

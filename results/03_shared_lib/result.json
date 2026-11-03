@@ -1,0 +1,16 @@
+{
+  "name": "03_shared_lib",
+  "tests": "A shared library (DLL): the link step has an extra output (import library).",
+  "c_files": 4,
+  "statements": 19,
+  "nodes": 123,
+  "commands": 17,
+  "tasks": 9,
+  "c1": true,
+  "c2": true,
+  "c3": true,
+  "c4": true,
+  "ran": 6,
+  "output": "$ app.exe   (exit code 0)\nsquare area=16\nrect area=10\n",
+  "seconds": 7.9
+}

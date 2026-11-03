@@ -1,0 +1,8 @@
+{
+  "tests": "An OBJECT library: the same .obj files are linked into two different executables.",
+  "run": [
+    "app1.exe",
+    "app2.exe"
+  ],
+  "cmake_args": []
+}

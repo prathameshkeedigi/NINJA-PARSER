@@ -1,0 +1,8 @@
+ninja: Entering directory `C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/04_lib_chain/by_ninja'
+[1/7] Building C object CMakeFiles/base.dir/base.c.obj
+[2/7] Building C object CMakeFiles/mid.dir/mid.c.obj
+[3/7] Building C object CMakeFiles/app.dir/extra.c.obj
+[4/7] Building C object CMakeFiles/app.dir/main.c.obj
+[5/7] Linking C static library libbase.a
+[6/7] Linking C static library libmid.a
+[7/7] Linking C executable app.exe

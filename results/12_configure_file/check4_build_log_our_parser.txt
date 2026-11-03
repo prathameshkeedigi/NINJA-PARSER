@@ -1,0 +1,7 @@
+[1] C:\msys64\ucrt64\bin\cc.exe  -IC:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/12_configure_file/by_our_parser  -MD -MT CMakeFiles/app.dir/main.c.obj -MF CMakeFiles\app.dir\main.c.obj.d -o CMakeFiles/app.dir/main.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/12_configure_file/main.c
+
+[2] C:\msys64\ucrt64\bin\cc.exe  -IC:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/12_configure_file/by_our_parser  -MD -MT CMakeFiles/app.dir/info.c.obj -MF CMakeFiles\app.dir\info.c.obj.d -o CMakeFiles/app.dir/info.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/12_configure_file/info.c
+
+[3] C:\msys64\ucrt64\bin\cc.exe  -IC:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/12_configure_file/by_our_parser  -MD -MT CMakeFiles/app.dir/feature.c.obj -MF CMakeFiles\app.dir\feature.c.obj.d -o CMakeFiles/app.dir/feature.c.obj -c C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/12_configure_file/feature.c
+
+[4] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\msys64\ucrt64\bin\cc.exe   CMakeFiles/app.dir/main.c.obj CMakeFiles/app.dir/info.c.obj CMakeFiles/app.dir/feature.c.obj -o app.exe -Wl,--out-implib,libapp.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."

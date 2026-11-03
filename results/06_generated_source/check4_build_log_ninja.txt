@@ -1,0 +1,8 @@
+ninja: Entering directory `C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/06_generated_source/by_ninja'
+[1/7] Building C object CMakeFiles/mkparse.dir/gen/mkparse.c.obj
+[2/7] Linking C executable mkparse.exe
+[3/7] Generating parse.c, parse.h
+[4/7] Building C object CMakeFiles/app.dir/lexer.c.obj
+[5/7] Building C object CMakeFiles/app.dir/parse.c.obj
+[6/7] Building C object CMakeFiles/app.dir/main.c.obj
+[7/7] Linking C executable app.exe

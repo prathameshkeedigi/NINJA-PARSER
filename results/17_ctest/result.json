@@ -1,0 +1,16 @@
+{
+  "name": "17_ctest",
+  "tests": "enable_testing + add_test: CMake adds a 'test' step to build.ninja; a test executable is built.",
+  "c_files": 3,
+  "statements": 23,
+  "nodes": 126,
+  "commands": 19,
+  "tasks": 10,
+  "c1": true,
+  "c2": true,
+  "c3": true,
+  "c4": true,
+  "ran": 6,
+  "output": "$ app.exe   (exit code 0)\nsquare(9)=81\n$ test_calc.exe   (exit code 0)\ntest passed\n",
+  "seconds": 8.4
+}

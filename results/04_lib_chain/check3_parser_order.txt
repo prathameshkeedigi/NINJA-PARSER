@@ -1,0 +1,14 @@
+Order computed by our parser (Kahn's algorithm), tasks needed by the default target:
+1. [phony] cmake_object_order_depends_target_base   waits for: -
+2. [C_COMPILER__base_unscanned_] CMakeFiles/base.dir/base.c.obj   waits for: ['cmake_object_order_depends_target_base']
+3. [phony] cmake_object_order_depends_target_mid   waits for: ['cmake_object_order_depends_target_base']
+4. [C_STATIC_LIBRARY_LINKER__base_] libbase.a   waits for: ['CMakeFiles/base.dir/base.c.obj']
+5. [C_COMPILER__mid_unscanned_] CMakeFiles/mid.dir/mid.c.obj   waits for: ['cmake_object_order_depends_target_mid']
+6. [phony] cmake_object_order_depends_target_app   waits for: ['cmake_object_order_depends_target_base', 'cmake_object_order_depends_target_mid']
+7. [C_STATIC_LIBRARY_LINKER__mid_] libmid.a   waits for: ['libbase.a', 'CMakeFiles/mid.dir/mid.c.obj']
+8. [C_COMPILER__app_unscanned_] CMakeFiles/app.dir/main.c.obj   waits for: ['cmake_object_order_depends_target_app']
+9. [C_COMPILER__app_unscanned_] CMakeFiles/app.dir/extra.c.obj   waits for: ['cmake_object_order_depends_target_app']
+10. [C_EXECUTABLE_LINKER__app_] app.exe   waits for: ['libbase.a', 'libmid.a', 'CMakeFiles/app.dir/main.c.obj', 'CMakeFiles/app.dir/extra.c.obj']
+11. [phony] all   waits for: ['libbase.a', 'libmid.a', 'app.exe']
+
+violations (a task placed before a task it waits for): 0

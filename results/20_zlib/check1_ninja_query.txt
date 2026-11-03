@@ -1,0 +1,1529 @@
+cmake_object_order_depends_target_zlib:
+  input: phony
+    || zlib1rc.obj
+  outputs:
+    CMakeFiles/zlib.dir/adler32.c.obj
+    CMakeFiles/zlib.dir/compress.c.obj
+    CMakeFiles/zlib.dir/crc32.c.obj
+    CMakeFiles/zlib.dir/deflate.c.obj
+    CMakeFiles/zlib.dir/gzclose.c.obj
+    CMakeFiles/zlib.dir/gzlib.c.obj
+    CMakeFiles/zlib.dir/gzread.c.obj
+    CMakeFiles/zlib.dir/gzwrite.c.obj
+    CMakeFiles/zlib.dir/inflate.c.obj
+    CMakeFiles/zlib.dir/infback.c.obj
+    CMakeFiles/zlib.dir/inftrees.c.obj
+    CMakeFiles/zlib.dir/inffast.c.obj
+    CMakeFiles/zlib.dir/trees.c.obj
+    CMakeFiles/zlib.dir/uncompr.c.obj
+    CMakeFiles/zlib.dir/zutil.c.obj
+    cmake_object_order_depends_target_example
+    cmake_object_order_depends_target_minigzip
+    cmake_object_order_depends_target_example64
+    cmake_object_order_depends_target_minigzip64
+zlib1rc.obj:
+  input: CUSTOM_COMMAND
+  outputs:
+    cmake_object_order_depends_target_zlib
+    libzlib.dll
+    libzlib.dll.a
+CMakeFiles/zlib.dir/adler32.c.obj:
+  input: C_COMPILER__zlib_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/adler32.c
+    || cmake_object_order_depends_target_zlib
+  outputs:
+    libzlib.dll
+    libzlib.dll.a
+C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/adler32.c:
+  outputs:
+    CMakeFiles/zlib.dir/adler32.c.obj
+    CMakeFiles/zlibstatic.dir/adler32.c.obj
+CMakeFiles/zlib.dir/compress.c.obj:
+  input: C_COMPILER__zlib_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/compress.c
+    || cmake_object_order_depends_target_zlib
+  outputs:
+    libzlib.dll
+    libzlib.dll.a
+C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/compress.c:
+  outputs:
+    CMakeFiles/zlib.dir/compress.c.obj
+    CMakeFiles/zlibstatic.dir/compress.c.obj
+CMakeFiles/zlib.dir/crc32.c.obj:
+  input: C_COMPILER__zlib_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/crc32.c
+    || cmake_object_order_depends_target_zlib
+  outputs:
+    libzlib.dll
+    libzlib.dll.a
+C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/crc32.c:
+  outputs:
+    CMakeFiles/zlib.dir/crc32.c.obj
+    CMakeFiles/zlibstatic.dir/crc32.c.obj
+CMakeFiles/zlib.dir/deflate.c.obj:
+  input: C_COMPILER__zlib_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/deflate.c
+    || cmake_object_order_depends_target_zlib
+  outputs:
+    libzlib.dll
+    libzlib.dll.a
+C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/deflate.c:
+  outputs:
+    CMakeFiles/zlib.dir/deflate.c.obj
+    CMakeFiles/zlibstatic.dir/deflate.c.obj
+CMakeFiles/zlib.dir/gzclose.c.obj:
+  input: C_COMPILER__zlib_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/gzclose.c
+    || cmake_object_order_depends_target_zlib
+  outputs:
+    libzlib.dll
+    libzlib.dll.a
+C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/gzclose.c:
+  outputs:
+    CMakeFiles/zlib.dir/gzclose.c.obj
+    CMakeFiles/zlibstatic.dir/gzclose.c.obj
+CMakeFiles/zlib.dir/gzlib.c.obj:
+  input: C_COMPILER__zlib_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/gzlib.c
+    || cmake_object_order_depends_target_zlib
+  outputs:
+    libzlib.dll
+    libzlib.dll.a
+C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/gzlib.c:
+  outputs:
+    CMakeFiles/zlib.dir/gzlib.c.obj
+    CMakeFiles/zlibstatic.dir/gzlib.c.obj
+CMakeFiles/zlib.dir/gzread.c.obj:
+  input: C_COMPILER__zlib_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/gzread.c
+    || cmake_object_order_depends_target_zlib
+  outputs:
+    libzlib.dll
+    libzlib.dll.a
+C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/gzread.c:
+  outputs:
+    CMakeFiles/zlib.dir/gzread.c.obj
+    CMakeFiles/zlibstatic.dir/gzread.c.obj
+CMakeFiles/zlib.dir/gzwrite.c.obj:
+  input: C_COMPILER__zlib_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/gzwrite.c
+    || cmake_object_order_depends_target_zlib
+  outputs:
+    libzlib.dll
+    libzlib.dll.a
+C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/gzwrite.c:
+  outputs:
+    CMakeFiles/zlib.dir/gzwrite.c.obj
+    CMakeFiles/zlibstatic.dir/gzwrite.c.obj
+CMakeFiles/zlib.dir/inflate.c.obj:
+  input: C_COMPILER__zlib_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/inflate.c
+    || cmake_object_order_depends_target_zlib
+  outputs:
+    libzlib.dll
+    libzlib.dll.a
+C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/inflate.c:
+  outputs:
+    CMakeFiles/zlib.dir/inflate.c.obj
+    CMakeFiles/zlibstatic.dir/inflate.c.obj
+CMakeFiles/zlib.dir/infback.c.obj:
+  input: C_COMPILER__zlib_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/infback.c
+    || cmake_object_order_depends_target_zlib
+  outputs:
+    libzlib.dll
+    libzlib.dll.a
+C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/infback.c:
+  outputs:
+    CMakeFiles/zlib.dir/infback.c.obj
+    CMakeFiles/zlibstatic.dir/infback.c.obj
+CMakeFiles/zlib.dir/inftrees.c.obj:
+  input: C_COMPILER__zlib_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/inftrees.c
+    || cmake_object_order_depends_target_zlib
+  outputs:
+    libzlib.dll
+    libzlib.dll.a
+C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/inftrees.c:
+  outputs:
+    CMakeFiles/zlib.dir/inftrees.c.obj
+    CMakeFiles/zlibstatic.dir/inftrees.c.obj
+CMakeFiles/zlib.dir/inffast.c.obj:
+  input: C_COMPILER__zlib_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/inffast.c
+    || cmake_object_order_depends_target_zlib
+  outputs:
+    libzlib.dll
+    libzlib.dll.a
+C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/inffast.c:
+  outputs:
+    CMakeFiles/zlib.dir/inffast.c.obj
+    CMakeFiles/zlibstatic.dir/inffast.c.obj
+CMakeFiles/zlib.dir/trees.c.obj:
+  input: C_COMPILER__zlib_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/trees.c
+    || cmake_object_order_depends_target_zlib
+  outputs:
+    libzlib.dll
+    libzlib.dll.a
+C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/trees.c:
+  outputs:
+    CMakeFiles/zlib.dir/trees.c.obj
+    CMakeFiles/zlibstatic.dir/trees.c.obj
+CMakeFiles/zlib.dir/uncompr.c.obj:
+  input: C_COMPILER__zlib_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/uncompr.c
+    || cmake_object_order_depends_target_zlib
+  outputs:
+    libzlib.dll
+    libzlib.dll.a
+C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/uncompr.c:
+  outputs:
+    CMakeFiles/zlib.dir/uncompr.c.obj
+    CMakeFiles/zlibstatic.dir/uncompr.c.obj
+CMakeFiles/zlib.dir/zutil.c.obj:
+  input: C_COMPILER__zlib_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/zutil.c
+    || cmake_object_order_depends_target_zlib
+  outputs:
+    libzlib.dll
+    libzlib.dll.a
+C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/zutil.c:
+  outputs:
+    CMakeFiles/zlib.dir/zutil.c.obj
+    CMakeFiles/zlibstatic.dir/zutil.c.obj
+libzlib.dll:
+  input: C_SHARED_LIBRARY_LINKER__zlib_
+    zlib1rc.obj
+    CMakeFiles/zlib.dir/adler32.c.obj
+    CMakeFiles/zlib.dir/compress.c.obj
+    CMakeFiles/zlib.dir/crc32.c.obj
+    CMakeFiles/zlib.dir/deflate.c.obj
+    CMakeFiles/zlib.dir/gzclose.c.obj
+    CMakeFiles/zlib.dir/gzlib.c.obj
+    CMakeFiles/zlib.dir/gzread.c.obj
+    CMakeFiles/zlib.dir/gzwrite.c.obj
+    CMakeFiles/zlib.dir/inflate.c.obj
+    CMakeFiles/zlib.dir/infback.c.obj
+    CMakeFiles/zlib.dir/inftrees.c.obj
+    CMakeFiles/zlib.dir/inffast.c.obj
+    CMakeFiles/zlib.dir/trees.c.obj
+    CMakeFiles/zlib.dir/uncompr.c.obj
+    CMakeFiles/zlib.dir/zutil.c.obj
+  outputs:
+    example.exe
+    minigzip.exe
+    example64.exe
+    minigzip64.exe
+    zlib
+    all
+libzlib.dll.a:
+  input: C_SHARED_LIBRARY_LINKER__zlib_
+    zlib1rc.obj
+    CMakeFiles/zlib.dir/adler32.c.obj
+    CMakeFiles/zlib.dir/compress.c.obj
+    CMakeFiles/zlib.dir/crc32.c.obj
+    CMakeFiles/zlib.dir/deflate.c.obj
+    CMakeFiles/zlib.dir/gzclose.c.obj
+    CMakeFiles/zlib.dir/gzlib.c.obj
+    CMakeFiles/zlib.dir/gzread.c.obj
+    CMakeFiles/zlib.dir/gzwrite.c.obj
+    CMakeFiles/zlib.dir/inflate.c.obj
+    CMakeFiles/zlib.dir/infback.c.obj
+    CMakeFiles/zlib.dir/inftrees.c.obj
+    CMakeFiles/zlib.dir/inffast.c.obj
+    CMakeFiles/zlib.dir/trees.c.obj
+    CMakeFiles/zlib.dir/uncompr.c.obj
+    CMakeFiles/zlib.dir/zutil.c.obj
+  outputs:
+    example.exe
+    minigzip.exe
+    example64.exe
+    minigzip64.exe
+cmake_object_order_depends_target_zlibstatic:
+  input: phony
+    || .
+  outputs:
+    CMakeFiles/zlibstatic.dir/adler32.c.obj
+    CMakeFiles/zlibstatic.dir/compress.c.obj
+    CMakeFiles/zlibstatic.dir/crc32.c.obj
+    CMakeFiles/zlibstatic.dir/deflate.c.obj
+    CMakeFiles/zlibstatic.dir/gzclose.c.obj
+    CMakeFiles/zlibstatic.dir/gzlib.c.obj
+    CMakeFiles/zlibstatic.dir/gzread.c.obj
+    CMakeFiles/zlibstatic.dir/gzwrite.c.obj
+    CMakeFiles/zlibstatic.dir/inflate.c.obj
+    CMakeFiles/zlibstatic.dir/infback.c.obj
+    CMakeFiles/zlibstatic.dir/inftrees.c.obj
+    CMakeFiles/zlibstatic.dir/inffast.c.obj
+    CMakeFiles/zlibstatic.dir/trees.c.obj
+    CMakeFiles/zlibstatic.dir/uncompr.c.obj
+    CMakeFiles/zlibstatic.dir/zutil.c.obj
+.:
+  outputs:
+    cmake_object_order_depends_target_zlibstatic
+CMakeFiles/zlibstatic.dir/adler32.c.obj:
+  input: C_COMPILER__zlibstatic_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/adler32.c
+    || cmake_object_order_depends_target_zlibstatic
+  outputs:
+    libzlibstatic.a
+CMakeFiles/zlibstatic.dir/compress.c.obj:
+  input: C_COMPILER__zlibstatic_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/compress.c
+    || cmake_object_order_depends_target_zlibstatic
+  outputs:
+    libzlibstatic.a
+CMakeFiles/zlibstatic.dir/crc32.c.obj:
+  input: C_COMPILER__zlibstatic_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/crc32.c
+    || cmake_object_order_depends_target_zlibstatic
+  outputs:
+    libzlibstatic.a
+CMakeFiles/zlibstatic.dir/deflate.c.obj:
+  input: C_COMPILER__zlibstatic_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/deflate.c
+    || cmake_object_order_depends_target_zlibstatic
+  outputs:
+    libzlibstatic.a
+CMakeFiles/zlibstatic.dir/gzclose.c.obj:
+  input: C_COMPILER__zlibstatic_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/gzclose.c
+    || cmake_object_order_depends_target_zlibstatic
+  outputs:
+    libzlibstatic.a
+CMakeFiles/zlibstatic.dir/gzlib.c.obj:
+  input: C_COMPILER__zlibstatic_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/gzlib.c
+    || cmake_object_order_depends_target_zlibstatic
+  outputs:
+    libzlibstatic.a
+CMakeFiles/zlibstatic.dir/gzread.c.obj:
+  input: C_COMPILER__zlibstatic_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/gzread.c
+    || cmake_object_order_depends_target_zlibstatic
+  outputs:
+    libzlibstatic.a
+CMakeFiles/zlibstatic.dir/gzwrite.c.obj:
+  input: C_COMPILER__zlibstatic_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/gzwrite.c
+    || cmake_object_order_depends_target_zlibstatic
+  outputs:
+    libzlibstatic.a
+CMakeFiles/zlibstatic.dir/inflate.c.obj:
+  input: C_COMPILER__zlibstatic_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/inflate.c
+    || cmake_object_order_depends_target_zlibstatic
+  outputs:
+    libzlibstatic.a
+CMakeFiles/zlibstatic.dir/infback.c.obj:
+  input: C_COMPILER__zlibstatic_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/infback.c
+    || cmake_object_order_depends_target_zlibstatic
+  outputs:
+    libzlibstatic.a
+CMakeFiles/zlibstatic.dir/inftrees.c.obj:
+  input: C_COMPILER__zlibstatic_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/inftrees.c
+    || cmake_object_order_depends_target_zlibstatic
+  outputs:
+    libzlibstatic.a
+CMakeFiles/zlibstatic.dir/inffast.c.obj:
+  input: C_COMPILER__zlibstatic_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/inffast.c
+    || cmake_object_order_depends_target_zlibstatic
+  outputs:
+    libzlibstatic.a
+CMakeFiles/zlibstatic.dir/trees.c.obj:
+  input: C_COMPILER__zlibstatic_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/trees.c
+    || cmake_object_order_depends_target_zlibstatic
+  outputs:
+    libzlibstatic.a
+CMakeFiles/zlibstatic.dir/uncompr.c.obj:
+  input: C_COMPILER__zlibstatic_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/uncompr.c
+    || cmake_object_order_depends_target_zlibstatic
+  outputs:
+    libzlibstatic.a
+CMakeFiles/zlibstatic.dir/zutil.c.obj:
+  input: C_COMPILER__zlibstatic_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/zutil.c
+    || cmake_object_order_depends_target_zlibstatic
+  outputs:
+    libzlibstatic.a
+libzlibstatic.a:
+  input: C_STATIC_LIBRARY_LINKER__zlibstatic_
+    CMakeFiles/zlibstatic.dir/adler32.c.obj
+    CMakeFiles/zlibstatic.dir/compress.c.obj
+    CMakeFiles/zlibstatic.dir/crc32.c.obj
+    CMakeFiles/zlibstatic.dir/deflate.c.obj
+    CMakeFiles/zlibstatic.dir/gzclose.c.obj
+    CMakeFiles/zlibstatic.dir/gzlib.c.obj
+    CMakeFiles/zlibstatic.dir/gzread.c.obj
+    CMakeFiles/zlibstatic.dir/gzwrite.c.obj
+    CMakeFiles/zlibstatic.dir/inflate.c.obj
+    CMakeFiles/zlibstatic.dir/infback.c.obj
+    CMakeFiles/zlibstatic.dir/inftrees.c.obj
+    CMakeFiles/zlibstatic.dir/inffast.c.obj
+    CMakeFiles/zlibstatic.dir/trees.c.obj
+    CMakeFiles/zlibstatic.dir/uncompr.c.obj
+    CMakeFiles/zlibstatic.dir/zutil.c.obj
+  outputs:
+    zlibstatic
+    all
+cmake_object_order_depends_target_example:
+  input: phony
+    || cmake_object_order_depends_target_zlib
+  outputs:
+    CMakeFiles/example.dir/test/example.c.obj
+CMakeFiles/example.dir/test/example.c.obj:
+  input: C_COMPILER__example_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/test/example.c
+    || cmake_object_order_depends_target_example
+  outputs:
+    example.exe
+C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/test/example.c:
+  outputs:
+    CMakeFiles/example.dir/test/example.c.obj
+    CMakeFiles/example64.dir/test/example.c.obj
+example.exe:
+  input: C_EXECUTABLE_LINKER__example_
+    CMakeFiles/example.dir/test/example.c.obj
+    | libzlib.dll.a
+    || libzlib.dll
+  outputs:
+    example
+    all
+cmake_object_order_depends_target_minigzip:
+  input: phony
+    || cmake_object_order_depends_target_zlib
+  outputs:
+    CMakeFiles/minigzip.dir/test/minigzip.c.obj
+CMakeFiles/minigzip.dir/test/minigzip.c.obj:
+  input: C_COMPILER__minigzip_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/test/minigzip.c
+    || cmake_object_order_depends_target_minigzip
+  outputs:
+    minigzip.exe
+C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/test/minigzip.c:
+  outputs:
+    CMakeFiles/minigzip.dir/test/minigzip.c.obj
+    CMakeFiles/minigzip64.dir/test/minigzip.c.obj
+minigzip.exe:
+  input: C_EXECUTABLE_LINKER__minigzip_
+    CMakeFiles/minigzip.dir/test/minigzip.c.obj
+    | libzlib.dll.a
+    || libzlib.dll
+  outputs:
+    minigzip
+    all
+cmake_object_order_depends_target_example64:
+  input: phony
+    || cmake_object_order_depends_target_zlib
+  outputs:
+    CMakeFiles/example64.dir/test/example.c.obj
+CMakeFiles/example64.dir/test/example.c.obj:
+  input: C_COMPILER__example64_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/test/example.c
+    || cmake_object_order_depends_target_example64
+  outputs:
+    example64.exe
+example64.exe:
+  input: C_EXECUTABLE_LINKER__example64_
+    CMakeFiles/example64.dir/test/example.c.obj
+    | libzlib.dll.a
+    || libzlib.dll
+  outputs:
+    example64
+    all
+cmake_object_order_depends_target_minigzip64:
+  input: phony
+    || cmake_object_order_depends_target_zlib
+  outputs:
+    CMakeFiles/minigzip64.dir/test/minigzip.c.obj
+CMakeFiles/minigzip64.dir/test/minigzip.c.obj:
+  input: C_COMPILER__minigzip64_unscanned_
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/test/minigzip.c
+    || cmake_object_order_depends_target_minigzip64
+  outputs:
+    minigzip64.exe
+minigzip64.exe:
+  input: C_EXECUTABLE_LINKER__minigzip64_
+    CMakeFiles/minigzip64.dir/test/minigzip.c.obj
+    | libzlib.dll.a
+    || libzlib.dll
+  outputs:
+    minigzip64
+    all
+CMakeFiles/test.util:
+  input: CUSTOM_COMMAND
+  outputs:
+    test
+test:
+  input: phony
+    CMakeFiles/test.util
+  outputs:
+CMakeFiles/edit_cache.util:
+  input: CUSTOM_COMMAND
+  outputs:
+    edit_cache
+edit_cache:
+  input: phony
+    CMakeFiles/edit_cache.util
+  outputs:
+CMakeFiles/rebuild_cache.util:
+  input: CUSTOM_COMMAND
+  outputs:
+    rebuild_cache
+rebuild_cache:
+  input: phony
+    CMakeFiles/rebuild_cache.util
+  outputs:
+list_install_components:
+  input: phony
+  outputs:
+CMakeFiles/install.util:
+  input: CUSTOM_COMMAND
+    all
+  outputs:
+    install
+all:
+  input: phony
+    libzlib.dll
+    libzlibstatic.a
+    example.exe
+    minigzip.exe
+    example64.exe
+    minigzip64.exe
+  outputs:
+    CMakeFiles/install.util
+    CMakeFiles/install/local.util
+    CMakeFiles/install/strip.util
+install:
+  input: phony
+    CMakeFiles/install.util
+  outputs:
+CMakeFiles/install/local.util:
+  input: CUSTOM_COMMAND
+    all
+  outputs:
+    install/local
+install/local:
+  input: phony
+    CMakeFiles/install/local.util
+  outputs:
+CMakeFiles/install/strip.util:
+  input: CUSTOM_COMMAND
+    all
+  outputs:
+    install/strip
+install/strip:
+  input: phony
+    CMakeFiles/install/strip.util
+  outputs:
+C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/zlib1rc.obj:
+  input: CUSTOM_COMMAND
+  outputs:
+example:
+  input: phony
+    example.exe
+  outputs:
+example64:
+  input: phony
+    example64.exe
+  outputs:
+minigzip:
+  input: phony
+    minigzip.exe
+  outputs:
+minigzip64:
+  input: phony
+    minigzip64.exe
+  outputs:
+zlib:
+  input: phony
+    libzlib.dll
+  outputs:
+zlibstatic:
+  input: phony
+    libzlibstatic.a
+  outputs:
+build.ninja:
+  input: RERUN_CMAKE
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCCompiler.cmake.in
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCCompilerABI.c
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCInformation.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCompilerIdDetection.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerSupport.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeGenericSystem.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeParseImplicitIncludeInfo.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeParseImplicitLinkInfo.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeParseLibraryArchitecture.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeRCCompiler.cmake.in
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeRCInformation.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeSystem.cmake.in
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCompilerCommon.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestRCCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CheckFunctionExists.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CheckIncludeFile.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CheckIncludeFileCXX.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CheckTypeSize.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/ADSP-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/ARMCC-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/ARMClang-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/AppleClang-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Borland-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Bruce-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompilerInternal.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Compaq-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Cray-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/CrayClang-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Diab-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Embarcadero-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Fujitsu-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GHS-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU-C.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/HP-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/IAR-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Intel-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/LCC-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/MSVC-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/NVHPC-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/NVIDIA-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/OrangeC-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/PGI-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/PathScale-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/PellesC-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Renesas-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/SCO-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/SDCC-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/SunPro-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/TI-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/TIClang-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Tasking-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Watcom-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/XL-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/XLClang-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/zOS-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CMakeCLinkerInformation.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CMakeInspectCLinker.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckCommon.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/FeatureTesting.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Linker/GNU-C.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Linker/GNU.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Linker/GNU.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-C.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-GNU-C-ABI.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-GNU-C.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-GNU.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-windres.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake
+    | C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/CMakeLists.txt
+    | C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/zconf.h.cmakein
+    | C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/zlib.pc.cmakein
+    | CMakeCache.txt
+    | CMakeFiles/4.4.4/CMakeCCompiler.cmake
+    | CMakeFiles/4.4.4/CMakeRCCompiler.cmake
+    | CMakeFiles/4.4.4/CMakeSystem.cmake
+  outputs:
+C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake:
+  input: RERUN_CMAKE
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCCompiler.cmake.in
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCCompilerABI.c
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCInformation.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCompilerIdDetection.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerSupport.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeGenericSystem.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeParseImplicitIncludeInfo.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeParseImplicitLinkInfo.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeParseLibraryArchitecture.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeRCCompiler.cmake.in
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeRCInformation.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeSystem.cmake.in
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCompilerCommon.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestRCCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CheckFunctionExists.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CheckIncludeFile.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CheckIncludeFileCXX.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CheckTypeSize.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/ADSP-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/ARMCC-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/ARMClang-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/AppleClang-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Borland-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Bruce-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompilerInternal.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Compaq-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Cray-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/CrayClang-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Diab-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Embarcadero-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Fujitsu-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GHS-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU-C.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/HP-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/IAR-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Intel-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/LCC-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/MSVC-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/NVHPC-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/NVIDIA-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/OrangeC-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/PGI-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/PathScale-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/PellesC-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Renesas-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/SCO-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/SDCC-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/SunPro-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/TI-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/TIClang-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Tasking-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Watcom-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/XL-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/XLClang-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/zOS-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CMakeCLinkerInformation.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CMakeInspectCLinker.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckCommon.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/FeatureTesting.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Linker/GNU-C.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Linker/GNU.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Linker/GNU.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-C.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-GNU-C-ABI.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-GNU-C.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-GNU.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-windres.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake
+    | C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/CMakeLists.txt
+    | C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/zconf.h.cmakein
+    | C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/zlib.pc.cmakein
+    | CMakeCache.txt
+    | CMakeFiles/4.4.4/CMakeCCompiler.cmake
+    | CMakeFiles/4.4.4/CMakeRCCompiler.cmake
+    | CMakeFiles/4.4.4/CMakeSystem.cmake
+  outputs:
+C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake:
+  input: RERUN_CMAKE
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCCompiler.cmake.in
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCCompilerABI.c
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCInformation.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCompilerIdDetection.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerSupport.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeGenericSystem.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeParseImplicitIncludeInfo.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeParseImplicitLinkInfo.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeParseLibraryArchitecture.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeRCCompiler.cmake.in
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeRCInformation.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeSystem.cmake.in
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCompilerCommon.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestRCCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CheckFunctionExists.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CheckIncludeFile.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CheckIncludeFileCXX.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CheckTypeSize.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/ADSP-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/ARMCC-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/ARMClang-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/AppleClang-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Borland-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Bruce-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompilerInternal.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Compaq-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Cray-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/CrayClang-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Diab-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Embarcadero-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Fujitsu-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GHS-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU-C.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/HP-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/IAR-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Intel-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/LCC-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/MSVC-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/NVHPC-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/NVIDIA-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/OrangeC-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/PGI-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/PathScale-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/PellesC-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Renesas-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/SCO-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/SDCC-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/SunPro-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/TI-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/TIClang-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Tasking-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Watcom-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/XL-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/XLClang-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/zOS-C-DetermineCompiler.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CMakeCLinkerInformation.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CMakeInspectCLinker.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckCommon.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/FeatureTesting.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Linker/GNU-C.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Linker/GNU.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Linker/GNU.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-C.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-GNU-C-ABI.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-GNU-C.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-GNU.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-windres.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows.cmake
+    | C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake
+    | C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/CMakeLists.txt
+    | C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/zconf.h.cmakein
+    | C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/zlib.pc.cmakein
+    | CMakeCache.txt
+    | CMakeFiles/4.4.4/CMakeCCompiler.cmake
+    | CMakeFiles/4.4.4/CMakeRCCompiler.cmake
+    | CMakeFiles/4.4.4/CMakeSystem.cmake
+  outputs:
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCCompiler.cmake.in:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCCompilerABI.c:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCInformation.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCompilerIdDetection.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerSupport.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeGenericSystem.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeParseImplicitIncludeInfo.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeParseImplicitLinkInfo.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeParseLibraryArchitecture.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeRCCompiler.cmake.in:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeRCInformation.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeSystem.cmake.in:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCompilerCommon.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestRCCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CheckFunctionExists.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CheckIncludeFile.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CheckIncludeFileCXX.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CheckTypeSize.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/ADSP-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/AppleClang-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Borland-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Bruce-C-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Compaq-C-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Cray-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Diab-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GHS-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU-C-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU-C.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/HP-C-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/IAR-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Intel-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/LCC-C-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/MSVC-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/NVHPC-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/NVIDIA-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/OrangeC-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/PGI-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/PathScale-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/PellesC-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Renesas-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/SCO-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/SDCC-C-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/SunPro-C-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/TI-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/TIClang-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Tasking-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Watcom-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/XL-C-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/XLClang-C-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/zOS-C-DetermineCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CMakeCLinkerInformation.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CMakeInspectCLinker.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckCommon.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/FeatureTesting.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Linker/GNU-C.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Linker/GNU.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Linker/GNU.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-C.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-GNU-C-ABI.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-GNU-C.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-GNU.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-windres.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/AppData/Roaming/Python/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/CMakeLists.txt:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/zconf.h.cmakein:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/projects/20_zlib/zlib.pc.cmakein:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+CMakeCache.txt:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+CMakeFiles/4.4.4/CMakeCCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+CMakeFiles/4.4.4/CMakeRCCompiler.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+CMakeFiles/4.4.4/CMakeSystem.cmake:
+  input: phony
+  outputs:
+    build.ninja
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/cmake_install.cmake
+    C:/Users/Asus/Desktop/Mini_project/Build_ninja_proof/builds/20_zlib/by_ninja/CTestTestfile.cmake
+clean:
+  input: CLEAN
+  outputs:
+help:
+  input: HELP
+  outputs:

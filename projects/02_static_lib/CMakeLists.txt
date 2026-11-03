@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(static_lib C)
+add_library(textutil STATIC upper.c count.c)
+add_executable(app main.c)
+target_link_libraries(app textutil)

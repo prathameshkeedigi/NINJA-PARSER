@@ -1,0 +1,16 @@
+{
+  "name": "08_include_dirs",
+  "tests": "Sources in src/, headers in two separate include folders (-I flags).",
+  "c_files": 3,
+  "statements": 15,
+  "nodes": 117,
+  "commands": 13,
+  "tasks": 6,
+  "c1": true,
+  "c2": true,
+  "c3": true,
+  "c4": true,
+  "ran": 4,
+  "output": "$ app.exe   (exit code 0)\nalpha=1 beta=2\n",
+  "seconds": 7.4
+}

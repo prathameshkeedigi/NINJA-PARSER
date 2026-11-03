@@ -1,0 +1,13 @@
+Order computed by our parser (Kahn's algorithm), tasks needed by the default target:
+1. [phony] cmake_object_order_depends_target_calc   waits for: -
+2. [C_COMPILER__calc_unscanned_] CMakeFiles/calc.dir/calc.c.obj   waits for: ['cmake_object_order_depends_target_calc']
+3. [phony] cmake_object_order_depends_target_app   waits for: ['cmake_object_order_depends_target_calc']
+4. [phony] cmake_object_order_depends_target_test_calc   waits for: ['cmake_object_order_depends_target_calc']
+5. [C_STATIC_LIBRARY_LINKER__calc_] libcalc.a   waits for: ['CMakeFiles/calc.dir/calc.c.obj']
+6. [C_COMPILER__app_unscanned_] CMakeFiles/app.dir/main.c.obj   waits for: ['cmake_object_order_depends_target_app']
+7. [C_COMPILER__test_calc_unscanned_] CMakeFiles/test_calc.dir/test_calc.c.obj   waits for: ['cmake_object_order_depends_target_test_calc']
+8. [C_EXECUTABLE_LINKER__app_] app.exe   waits for: ['libcalc.a', 'CMakeFiles/app.dir/main.c.obj']
+9. [C_EXECUTABLE_LINKER__test_calc_] test_calc.exe   waits for: ['libcalc.a', 'CMakeFiles/test_calc.dir/test_calc.c.obj']
+10. [phony] all   waits for: ['libcalc.a', 'app.exe', 'test_calc.exe']
+
+violations (a task placed before a task it waits for): 0

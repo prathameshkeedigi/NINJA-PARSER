@@ -1,0 +1,16 @@
+{
+  "name": "02_static_lib",
+  "tests": "A static library (.a built with ar) linked into an executable.",
+  "c_files": 3,
+  "statements": 18,
+  "nodes": 120,
+  "commands": 16,
+  "tasks": 8,
+  "c1": true,
+  "c2": true,
+  "c3": true,
+  "c4": true,
+  "ran": 5,
+  "output": "$ app.exe   (exit code 0)\nBANANA has 3 a's\n",
+  "seconds": 8.0
+}
